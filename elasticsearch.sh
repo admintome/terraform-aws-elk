@@ -36,7 +36,7 @@ sudo /usr/share/logstash/bin/logstash-plugin install logstash-input-beats
 
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-5.2.0-amd64.deb
 sudo dpkg -i filebeat-5.2.0-amd64.deb
-sudo mv filebeat.yml /etc/filebeat/filebeat.yml
+sudo mv /tmp/filebeat.yml /etc/filebeat/filebeat.yml
 
 sudo systemctl enable filebeat.service
 sudo systemctl start filebeat.service
