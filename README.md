@@ -6,7 +6,7 @@ This is a Terraform module that will provision an ELK (Elasticsearch, Logstash, 
 
 ```
 module "elk" {
-  source = ""
+  source = "admintome/elk/aws"
 
   key = "dev"
   private_key = "${file("~/.ssh/id_rsa")}"
