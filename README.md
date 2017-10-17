@@ -16,7 +16,8 @@ module "elk" {
 
 ## Author
 
-Module managed by AdminTome
+Module managed by [AdminTome](http://www.admintome.com)
+Git Repos for [AdminTome](https://github.com/admintome)
 
 ## License
 
